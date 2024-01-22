@@ -64,11 +64,45 @@ p {
     font-size: 16px;
 }
 
-/* font-family:Outfit; */
-/* font-family:Young Serif; */
+.img-egg img {
+    
+    width: 100%;
+}
 
+body {
+}
+.card-recipe {
+    padding: 2.5rem;
 
-
+}
+.first-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family:"Young Serif";
+    margin-bottom: 2rem;
+}
+header p:nth-child(2) {
+  
+    font-size: 1.28rem;
+    line-height: 1.6rem;
+    font-family:"Outfit";
+    margin-bottom: 2rem;
+}
+.preparation-session {
+   padding: 1rem;
+   background-color: var(--RoseWhite);
+}
+.preparation-session p {
+    font-family:"Outfit";
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.preparation-session li {
+    padding-bottom: 1rem;
+    }
+    
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+/* font-family:"Outfit"; */
+/* font-family:"Young Serif"; */
