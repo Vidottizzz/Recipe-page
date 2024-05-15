@@ -102,9 +102,13 @@ header p:nth-child(2) {
     margin-bottom: 2.2rem;
    padding: 2rem;
    background-color: var(--RoseWhite);
+   border-radius: 1rem;
 }
 .ingredient-section li span {
     font-family:"Outfit";
+}
+main .ingredient-section p {
+    color: var(--Nutmeg)
 }
 .ingredient-section li{
     margin-bottom: 1rem;
@@ -115,7 +119,9 @@ header p:nth-child(2) {
     margin-left: 1rem;
     font-family:"Outfit";
 }
-
+main .instruction-section p {
+    color: var(--Nutmeg)
+}
 .preparation-session p{
     font-family:"Outfit";
     font-size: 1.7rem;
@@ -154,12 +160,31 @@ header p:nth-child(2) {
 .nutrition-section hr {
  margin: 0.5rem 0;   
 }
+main .nutrition-section p:first-child {
+    color: var(--Nutmeg)
+}
 li span {
     position: relative;
     left: 10px;
   }
   .nutrition-info div{
-    padding: 0.5rem 0rem;
+    padding: 0rem 0rem;
+  }
+  .nutrition-info div.flex .spanone{
+    padding: 0px 0px 0px 0px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spantwo{
+    padding: 0px 0px 0px 20px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spanthree{
+    padding: 0px 0px 0px 10px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spanfour{
+    padding: 0px 0px 0px 45px;
+    color: var(--Nutmeg)
   }
 .preparation-session ul,  .ingredient-section ul{
     list-style-type: disc;
@@ -223,6 +248,27 @@ ol>li {
   }
 
 .attribution { font-size: 1rem; text-align: center; }
-.attribution a { color: hsl(123, 45%, 44%); }
+.attribution a { color: var(--Nutmeg) }
 /* font-family:"Outfit"; */
 /* font-family:"Young Serif"; */
+
+.GreenNumbers {
+    list-style-type: none;
+}
+.GreenNumbers ol {
+    margin-left: 2em;
+}
+.GreenNumbers li {
+    counter-increment: count-me;
+}
+.GreenNumbers li::before {
+    content: counter(count-me) ". ";
+    display: block;
+    position: relative;
+    max-width: 0px;
+    max-height: 0px;
+    left: -1.3em;
+    top: .05em;
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
