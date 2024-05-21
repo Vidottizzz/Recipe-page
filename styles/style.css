@@ -272,3 +272,55 @@ ol>li {
     color: var(--Nutmeg);
     font-weight: bold;
 }
+
+@media screen and (min-width: 700px) {
+
+    body {
+        max-width: 100%;
+    }
+.img-egg img {
+    padding: 2rem;
+    width: 100%;
+    height: 35rem;
+}
+body .img-egg {
+    border-radius: 1rem;   
+    width: 100%; 
+}
+.card-recipe .first-title {
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+}
+.card-recipe .first-text{
+font-size:1.6rem;
+line-height: 2.5rem;
+}
+.ingredient-section ul LI {
+    width: 100%;
+}
+.instruction-section .GreenNumbers li {
+    width: 100%;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+    
+}
+.nutrition-info .flex {
+    padding-left: 2.6rem;
+}
+.nutrition-info div.flex .spanone{
+    padding: 0px 0px 0px 180px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spantwo{
+    padding: 0px 0px 0px 200px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spanthree{
+    padding: 0px 0px 0px 190px;
+    color: var(--Nutmeg)
+  }
+  .nutrition-info div.flex .spanfour{
+    padding: 0px 0px 0px 225px;
+    color: var(--Nutmeg)
+  }
+}
